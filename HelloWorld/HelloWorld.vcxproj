@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{e8ec5e36-8d4f-11ea-be2f-7470fd50595a}</ProjectGuid>
+    <ProjectGuid>{54bc93d2-8930-11ea-a63a-00dbdf4bd7cc}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>HelloWorld</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -88,8 +88,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__AVR_DEV_LIB_NAME__=m32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\manue\OneDrive\Dokumente\Schule\M242\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include;C:\Users\manue\OneDrive\Dokumente\Schule\M242\avr\ToolChain\avrlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__AVR_ATmega328P__=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include;C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\avr\ToolChain\avrlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
